@@ -1,0 +1,1099 @@
+@font-face {
+  font-family: "montserrat";
+  src: url(./fontes/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: "montserrat_SemiBold";
+  src: url(./fontes/Montserrat-SemiBold.ttf);
+}
+@font-face {
+  font-family: "montserrat_ExtraBold";
+  src: url(./fontes/Montserrat-ExtraBold.ttf);
+}
+@font-face {
+  font-family: "BebasNeue";
+  src: url(./fontes/BebasNeue-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+.secao1 {
+  background-color: #00b1c3;
+  width: 100%;
+  height: 780px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  position: relative;
+  overflow: hidden;
+}
+.secao1::before {
+  content: "";
+  width: 6000px;
+  height: 10000px;
+  top: 250px;
+  background-color: white;
+  border-radius: 100%;
+  position: absolute;
+}
+.container_logo {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: -120px;
+}
+.logo {
+  width: 100%;
+  height: 100%;
+}
+.texto1 {
+  z-index: 1;
+  font-size: 7em;
+  max-width: 1500px;
+  white-space: pre-line;
+  text-align: center;
+  color: #00b1c3;
+  font-family: "montserrat_SemiBold";
+  margin-bottom: 150px;
+}
+.secao2 {
+  width: 100%;
+  height: 800px;
+  position: relative;
+  z-index: -1;
+  top: -620px;
+}
+.caminhao {
+  width: 100%;
+  height: 1500px;
+  margin-top: -100px;
+}
+.secao3 {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -350px;
+  background-color: white;
+}
+.texto3 {
+  font-size: 3em;
+  text-align: center;
+  white-space: pre-line;
+  color: #003b54;
+  font-family: "montserrat_SemiBold";
+}
+.b {
+  font-family: "montserrat_ExtraBold";
+}
+.secao4 {
+  width: 100%;
+  height: 500px;
+}
+
+.imagem img {
+  width: 100%;
+  height: 500px;
+}
+
+.texto-sobre-imagem {
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  position: relative;
+  top: -350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.textoS4 {
+  line-height: 1;
+  white-space: pre-line;
+  border-bottom: 2px solid white;
+  max-width: 800px;
+  padding-bottom: 20px;
+  font-size: 2em;
+  font-family: "montserrat_SemiBold";
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 1.5em;
+  background-color: #00b1c3;
+  color: #ffffff;
+  cursor: pointer;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-top: 2px;
+  border-bottom: 2px;
+  border: none;
+  margin-top: 20px;
+  font-family: "montserrat";
+}
+.button:hover {
+  background-color: white;
+  color: #00b1c3;
+}
+.secao5 {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: white;
+}
+.size {
+  font-size: 2em;
+  color: #003b54;
+  font-family: "montserrat";
+}
+
+span,
+.texto4 {
+  font-family: "montserrat_ExtraBold";
+}
+.texto5 {
+  text-align: center;
+  line-height: 35px;
+  margin-top: 10px;
+}
+.texto6 {
+  margin-top: 10px;
+}
+.btn1 {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.icon {
+  width: 50px;
+  height: 50px;
+}
+/**************************************************************************************************** @meidias Querry ****************************************************************************************************/
+@media screen and (max-width: 360px) {
+  .secao1 {
+    background-color: #00b1c3;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    position: relative;
+    overflow: hidden;
+  }
+  .secao1::before {
+    content: "";
+    width: 1100px;
+    height: 1250px;
+    top: 85px;
+    background-color: white;
+    border-radius: 100%;
+    position: absolute;
+  }
+  .container_logo {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: -20px;
+  }
+  .logo {
+    width: 100%;
+    height: 100%;
+  }
+  .texto1 {
+    z-index: 1;
+    font-size: 1.5em;
+    max-width: 1000px;
+    white-space: pre-line;
+    text-align: center;
+    color: #00b1c3;
+    font-family: "montserrat_SemiBold";
+    margin-bottom: 20px;
+  }
+  .secao2 {
+    width: 100%;
+    height: 820px;
+    position: relative;
+    z-index: -1;
+    top: -600px;
+  }
+  .caminhao {
+    width: 100%;
+    height: 420px;
+    margin-top: 400px;
+  }
+  .secao3 {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -700px;
+    background-color: white;
+  }
+  .texto3 {
+    font-size: 1em;
+    text-align: center;
+    white-space: pre-line;
+    color: #003b54;
+    font-family: "montserrat_SemiBold";
+  }
+  .b {
+    font-family: "montserrat_ExtraBold";
+  }
+  .secao4 {
+    width: 100%;
+    height: 300px;
+  }
+
+  .imagem img {
+    width: 100%;
+    height: 300px;
+  }
+
+  .texto-sobre-imagem {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    position: relative;
+    top: -200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .textoS4 {
+    line-height: 1;
+    white-space: pre-line;
+    border-bottom: 2px solid white;
+    max-width: 800px;
+    padding-bottom: 20px;
+    font-size: 1em;
+    font-family: "montserrat_SemiBold";
+  }
+
+  .button {
+    padding: 10px 20px;
+    font-size: 0.5em;
+    background-color: #00b1c3;
+    color: #ffffff;
+    cursor: pointer;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-top: 2px;
+    border-bottom: 2px;
+    border: none;
+    margin-top: 20px;
+    font-family: "montserrat";
+  }
+  .button:hover {
+    background-color: white;
+    color: #00b1c3;
+  }
+  .secao5 {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+    background-color: white;
+  }
+  .size {
+    font-size: 1em;
+    color: #003b54;
+    font-family: "montserrat";
+  }
+
+  span,
+  .texto4 {
+    font-family: "montserrat_ExtraBold";
+  }
+  .texto5 {
+    text-align: center;
+    line-height: 15px;
+  }
+  .btn1 {
+    text-decoration: none;
+  }
+  .icon {
+    width: 20px;
+    height: 20px;
+  }
+}
+@media screen and (max-width: 600px) and (min-width: 360px) {
+  .secao1 {
+    background-color: #00b1c3;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    position: relative;
+    overflow: hidden;
+  }
+  .secao1::before {
+    content: "";
+    width: 1100px;
+    height: 1250px;
+    top: 85px;
+    background-color: white;
+    border-radius: 100%;
+    position: absolute;
+  }
+  .container_logo {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: -30px;
+  }
+  .logo {
+    width: 100%;
+    height: 100%;
+  }
+  .texto1 {
+    z-index: 1;
+    font-size: 1.5em;
+    max-width: 1000px;
+    white-space: pre-line;
+    text-align: center;
+    color: #00b1c3;
+    font-family: "montserrat_SemiBold";
+    margin-bottom: 20px;
+  }
+  .secao2 {
+    width: 100%;
+    height: 820px;
+    position: relative;
+    z-index: -1;
+    top: -600px;
+  }
+  .caminhao {
+    width: 100%;
+    height: 420px;
+    margin-top: 400px;
+  }
+  .secao3 {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -700px;
+    background-color: white;
+  }
+  .texto3 {
+    font-size: 1em;
+    text-align: center;
+    white-space: pre-line;
+    color: #003b54;
+    font-family: "montserrat_SemiBold";
+  }
+  .b {
+    font-family: "montserrat_ExtraBold";
+  }
+  .secao4 {
+    width: 100%;
+    height: 250px;
+  }
+
+  .imagem img {
+    width: 100%;
+    height: 250px;
+  }
+
+  .texto-sobre-imagem {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    position: relative;
+    top: -200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .textoS4 {
+    line-height: 1;
+    white-space: pre-line;
+    border-bottom: 2px solid white;
+    max-width: 800px;
+    padding-bottom: 20px;
+    font-size: 0.8em;
+    font-family: "montserrat_SemiBold";
+  }
+
+  .button {
+    padding: 10px 20px;
+    font-size: 0.5em;
+    background-color: #00b1c3;
+    color: #ffffff;
+    cursor: pointer;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-top: 2px;
+    border-bottom: 2px;
+    border: none;
+    margin-top: 20px;
+    font-family: "montserrat";
+  }
+  .button:hover {
+    background-color: white;
+    color: #00b1c3;
+  }
+  .secao5 {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+    margin-top: 0px;
+    background-color: white;
+  }
+  .size {
+    font-size: 1em;
+    color: #003b54;
+    font-family: "montserrat";
+  }
+
+  span,
+  .texto4 {
+    font-family: "montserrat_ExtraBold";
+  }
+  .texto5 {
+    text-align: center;
+    line-height: 15px;
+  }
+  .btn1 {
+    text-decoration: none;
+  }
+  .icon {
+    width: 20px;
+    height: 20px;
+  }
+}
+/**************************************************************************************************** @meidia 600min and 768max ****************************************************************************************************/
+@media (min-width: 600px) and (max-width: 768px) {
+  .secao1 {
+    background-color: #00b1c3;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    position: relative;
+    overflow: hidden;
+  }
+  .secao1::before {
+    content: "";
+    width: 1100px;
+    height: 1100px;
+    top: 200px;
+    background-color: white;
+    border-radius: 100%;
+    position: absolute;
+  }
+  .container_logo {
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: -50px;
+  }
+  .logo {
+    width: 100%;
+    height: 100%;
+  }
+  .texto1 {
+    z-index: 1;
+    font-size: 3em;
+    max-width: 1500px;
+    white-space: pre-line;
+    text-align: center;
+    color: #00b1c3;
+    font-family: "montserrat_SemiBold";
+    margin-bottom: 50px;
+  }
+  .secao2 {
+    width: 100%;
+    height: 800px;
+    position: relative;
+    z-index: -1;
+    top: -0px;
+  }
+  .caminhao {
+    width: 100%;
+    height: 400px;
+    margin-top: -150px;
+  }
+  .secao3 {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -630px;
+    background-color: white;
+  }
+  .texto3 {
+    font-size: 1em;
+    text-align: center;
+    white-space: pre-line;
+    color: #003b54;
+    font-family: "montserrat_SemiBold";
+  }
+  .b {
+    font-family: "montserrat_ExtraBold";
+  }
+  .secao4 {
+    width: 100%;
+    height: 350px;
+  }
+
+  .imagem img {
+    width: 100%;
+    height: 350px;
+  }
+
+  .texto-sobre-imagem {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    position: relative;
+    top: -260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .textoS4 {
+    line-height: 1;
+    white-space: pre-line;
+    border-bottom: 2px solid white;
+    max-width: 800px;
+    padding-bottom: 20px;
+    font-size: 1em;
+    font-family: "montserrat_SemiBold";
+  }
+
+  .button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #00b1c3;
+    color: #ffffff;
+    cursor: pointer;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-top: 2px;
+    border-bottom: 2px;
+    border: none;
+    margin-top: 20px;
+    font-family: "montserrat";
+  }
+  .button:hover {
+    background-color: white;
+    color: #00b1c3;
+  }
+  .secao5 {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 0px;
+    background-color: white;
+  }
+  .size {
+    font-size: 1.7em;
+    color: #003b54;
+    font-family: "montserrat";
+  }
+
+  span,
+  .texto4 {
+    font-family: "montserrat_ExtraBold";
+  }
+  .texto5 {
+    text-align: center;
+    max-width: 700px;
+    line-height: 30px;
+  }
+  .btn1 {
+    text-decoration: none;
+  }
+  .icon {
+    width: 40px;
+    height: 40px;
+  }
+}
+/**************************************************************************************************** @meidia 768min and 922max (tablet) ****************************************************************************************************/
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .secao1 {
+    background-color: #00b1c3;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    position: relative;
+    overflow: hidden;
+  }
+  .secao1::before {
+    content: "";
+    width: 1200px;
+    height: 1200px;
+    top: 250px;
+    background-color: white;
+    border-radius: 100%;
+    position: absolute;
+  }
+  .container_logo {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: -120px;
+  }
+  .logo {
+    width: 100%;
+    height: 100%;
+  }
+  .texto1 {
+    z-index: 1;
+    font-size: 4em;
+    max-width: 1500px;
+    white-space: pre-line;
+    text-align: center;
+    color: #00b1c3;
+    font-family: "montserrat_SemiBold";
+    margin-bottom: 80px;
+  }
+  .secao2 {
+    width: 100%;
+    height: 800px;
+    position: relative;
+    z-index: -1;
+    top: 0px;
+  }
+  .caminhao {
+    width: 100%;
+    height: 800px;
+    margin-top: -360px;
+  }
+  .secao3 {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -550px;
+    background-color: white;
+  }
+  .texto3 {
+    font-size: 2em;
+    text-align: center;
+    white-space: pre-line;
+    color: #003b54;
+    font-family: "montserrat_SemiBold";
+  }
+  .b {
+    font-family: "montserrat_ExtraBold";
+  }
+  .secao4 {
+    width: 100%;
+    height: 500px;
+  }
+
+  .imagem img {
+    width: 100%;
+    height: 500px;
+  }
+
+  .texto-sobre-imagem {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    position: relative;
+    top: -350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .textoS4 {
+    line-height: 1;
+    white-space: pre-line;
+    border-bottom: 2px solid white;
+    max-width: 800px;
+    padding-bottom: 20px;
+    font-size: 1.5em;
+    font-family: "montserrat_SemiBold";
+  }
+
+  .button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #00b1c3;
+    color: #ffffff;
+    cursor: pointer;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-top: 2px;
+    border-bottom: 2px;
+    border: none;
+    margin-top: 20px;
+    font-family: "montserrat";
+  }
+  .button:hover {
+    background-color: white;
+    color: #00b1c3;
+  }
+  .secao5 {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 0px;
+    background-color: white;
+  }
+  .size {
+    font-size: 1.5em;
+    color: #003b54;
+    font-family: "montserrat";
+  }
+
+  span,
+  .texto4 {
+    font-family: "montserrat_ExtraBold";
+  }
+  .texto5 {
+    text-align: center;
+    max-width: 700px;
+    line-height: 25px;
+  }
+  .btn1 {
+    text-decoration: none;
+  }
+  .icon {
+    width: 40px;
+    height: 40px;
+  }
+}
+/**************************************************************************************************** @meidia 992min and 1200max (Computador em geral)****************************************************************************************************/
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .secao1 {
+    background-color: #00b1c3;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    position: relative;
+    overflow: hidden;
+  }
+  .secao1::before {
+    content: "";
+    width: 2500px;
+    height: 3000px;
+    top: 220px;
+    background-color: white;
+    border-radius: 100%;
+    position: absolute;
+  }
+  .container_logo {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: -120px;
+  }
+  .logo {
+    width: 100%;
+    height: 100%;
+  }
+  .texto1 {
+    z-index: 1;
+    font-size: 4em;
+    max-width: 1500px;
+    white-space: pre-line;
+    text-align: center;
+    color: #00b1c3;
+    font-family: "montserrat_SemiBold";
+    margin-bottom: 50px;
+  }
+  .secao2 {
+    width: 100%;
+    height: 600px;
+    position: relative;
+    z-index: -1;
+    top: 0px;
+  }
+  .caminhao {
+    width: 100%;
+    height: 600px;
+    margin-top: -230px;
+  }
+  .secao3 {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -300px;
+    background-color: white;
+  }
+  .texto3 {
+    font-size: 2.5em;
+    text-align: center;
+    white-space: pre-line;
+    color: #003b54;
+    font-family: "montserrat_SemiBold";
+  }
+  .b {
+    font-family: "montserrat_ExtraBold";
+  }
+  .secao4 {
+    width: 100%;
+    height: 500px;
+  }
+
+  .imagem img {
+    width: 100%;
+    height: 500px;
+  }
+
+  .texto-sobre-imagem {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    position: relative;
+    top: -350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .textoS4 {
+    line-height: 1;
+    white-space: pre-line;
+    border-bottom: 2px solid white;
+    max-width: 800px;
+    padding-bottom: 20px;
+    font-size: 1.5em;
+    font-family: "montserrat_SemiBold";
+  }
+
+  .button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #00b1c3;
+    color: #ffffff;
+    cursor: pointer;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-top: 2px;
+    border-bottom: 2px;
+    border: none;
+    margin-top: 20px;
+    font-family: "montserrat";
+  }
+  .button:hover {
+    background-color: white;
+    color: #00b1c3;
+  }
+  .secao5 {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 0px;
+    background-color: white;
+  }
+  .size {
+    font-size: 1.5em;
+    color: #003b54;
+    font-family: "montserrat";
+  }
+
+  span,
+  .texto4 {
+    font-family: "montserrat_ExtraBold";
+  }
+  .texto5 {
+    text-align: center;
+    max-width: 700px;
+    line-height: 25px;
+  }
+  .btn1 {
+    text-decoration: none;
+  }
+  .icon {
+    width: 45px;
+    height: 45px;
+  }
+}
+/**************************************************************************************************** @meidia 1200min and 1920max ****************************************************************************************************/
+@media screen and (min-width: 1200px) and (max-width: 1920px) {
+  .secao1 {
+    background-color: #00b1c3;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    position: relative;
+    overflow: hidden;
+  }
+  .secao1::before {
+    content: "";
+    width: 4000px;
+    height: 4000px;
+    top: 300px;
+    background-color: white;
+    border-radius: 100%;
+    position: absolute;
+  }
+  .container_logo {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: -100px;
+  }
+  .logo {
+    width: 100%;
+    height: 100%;
+  }
+  .texto1 {
+    z-index: 1;
+    font-size: 6em;
+    max-width: 1500px;
+    white-space: pre-line;
+    text-align: center;
+    color: #00b1c3;
+    font-family: "montserrat_SemiBold";
+    margin-bottom: 100px;
+  }
+  .secao2 {
+    width: 100%;
+    height: 800px;
+    position: relative;
+    z-index: -1;
+    top: -620px;
+  }
+  .caminhao {
+    width: 100%;
+    height: 1500px;
+    margin-top: -100px;
+  }
+  .secao3 {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -350px;
+    background-color: white;
+  }
+  .texto3 {
+    font-size: 3em;
+    text-align: center;
+    white-space: pre-line;
+    color: #003b54;
+    font-family: "montserrat_SemiBold";
+  }
+  .b {
+    font-family: "montserrat_ExtraBold";
+  }
+  .secao4 {
+    width: 100%;
+    height: 500px;
+  }
+
+  .imagem img {
+    width: 100%;
+    height: 500px;
+  }
+
+  .texto-sobre-imagem {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    position: relative;
+    top: -350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .textoS4 {
+    line-height: 1;
+    white-space: pre-line;
+    border-bottom: 2px solid white;
+    max-width: 800px;
+    padding-bottom: 20px;
+    font-size: 2em;
+    font-family: "montserrat_SemiBold";
+  }
+
+  .button {
+    padding: 10px 20px;
+    font-size: 1.5em;
+    background-color: #00b1c3;
+    color: #ffffff;
+    cursor: pointer;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-top: 2px;
+    border-bottom: 2px;
+    border: none;
+    margin-top: 20px;
+  }
+  .button:hover {
+    background-color: white;
+    color: #00b1c3;
+  }
+  .secao5 {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+  }
+  .size {
+    font-size: 2em;
+    color: #003b54;
+    font-family: "montserrat";
+  }
+
+  span,
+  .texto4 {
+    font-family: "montserrat_ExtraBold";
+  }
+  .texto5 {
+    text-align: center;
+    max-width: 700px;
+    line-height: 35px;
+  }
+  .btn1 {
+    text-decoration: none;
+  }
+  .icon {
+    width: 50px;
+    height: 50px;
+  }
+}
